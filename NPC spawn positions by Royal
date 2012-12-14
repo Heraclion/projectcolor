@@ -1,0 +1,8 @@
+-- NPC spawn positions by Royal
+
+DELETE FROM creature WHERE guid = '6584659';
+DELETE FROM creature WHERE guid = '15850568';
+
+INSERT INTO `creature` (`guid`, `id`, `map`, `spawnMask`, `phaseMask`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `spawndist`, `currentwaypoint`, `curhealth`, `curmana`, `DeathState`, `MovementType`, `npcflag`, `unit_flags`, `dynamicflags`) VALUES
+(6584659, 43184, 0, 1, 1, 0, 0, -9203.84, -2155.79, 57.1871, 3.56502, 7200, 0, 0, 210, 0, 0, 0, 0, 0, 0),
+(15850568, 43508, 0, 1, 1, 0, 0, -9681.58, -2839.62, 54.7988, 0.742127, 300, 0, 0, 210, 0, 0, 0, 0, 0, 0);
