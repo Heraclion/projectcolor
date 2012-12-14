@@ -1,0 +1,3 @@
+-- fix for Mage Frost Nova by nmhe
+
+INSERT INTO `spell_linked_spell` VALUES ('122', '61462', '0', 'cataclysm - Frost Nova'); 
