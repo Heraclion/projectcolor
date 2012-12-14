@@ -1,0 +1,10 @@
+-- fix for npc 38120
+
+UPDATE Creature SET phasemask ='3' WHERE id ='38120' AND phasemask ='2048';
+UPDATE Creature SET phasemask ='3' WHERE id ='38122' AND phasemask ='2048';
+UPDATE Creature SET phasemask ='3' WHERE id ='38738' AND phasemask ='2048';
+UPDATE Creature SET phasemask ='3' WHERE id ='38124' AND phasemask ='2048';
+UPDATE Creature SET phasemask ='3' WHERE id ='38514' AND phasemask ='2048';
+
+INSERT INTO `creature` (`guid`, `id`, `map`, `spawnMask`, `phaseMask`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `spawndist`, `currentwaypoint`, `curhealth`, `curmana`, `DeathState`, `MovementType`, `npcflag`, `unit_flags`, `dynamicflags`) VALUES
+(15856684, 38120, 648, 1, 65534, 0, 38120, 908.157, 2341.89, 5.18363, 4.54824, 300, 0, 0, 198, 0, 0, 0, 0, 0, 0);
