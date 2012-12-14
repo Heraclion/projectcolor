@@ -1,0 +1,9 @@
+-- Add quests to 42405 npc because dosen`t exist by Royal
+
+
+DELETE FROM `creature_questrelation` WHERE `id` = 42405;
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (42405,26228);
+INSERT INTO `creature_questrelation` (`id`,`quest`) VALUES (42405,26232);
+DELETE FROM `creature_involvedrelation` WHERE `id` = 42405;
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (42405,26215);
+INSERT INTO `creature_involvedrelation` (`id`,`quest`) VALUES (42405,26228);
